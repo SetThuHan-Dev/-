@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Metadata -->
+        <meta charset="utf-8">
+        
+        <!-- Mobile Specific Metas -->
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <meta name="keywords" content="programmer, coding, mobile, javascript, c#, .net, game developer, english, myanmar" />
+        <meta name="description" content="Unity game developer interested in any fun and hight quality game development." />
+
+        <title>Set Thu Han</title>
+        <!-- External file links for this html page  -->
+        
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="styles/skeleton.css">
+        <link rel="stylesheet" type="text/css" href="styles/landing.css">
+        <link rel="stylesheet" type="text/css" href="styles/career.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Project related css files --> 
+        <link rel="stylesheet" type="text/css" href="./styles/project_styles/sirCodeAlot.css"/>
+        <link rel="stylesheet" type="text/css" href="./styles/project_styles/cleanTheFloor.css"/>
+        <link rel="stylesheet" type="text/css" href="./styles/project_styles/fillThemAll.css"/>
+        <link rel="stylesheet" type="text/css" href="./styles/project_styles/fillOneLine.css"/>
+        <link rel="stylesheet" type="text/css" href="./styles/project_styles/ropeAndBalls.css"/>
+        <link rel="stylesheet" type="text/css" href="./styles/project_styles/woodo.css"/>
+        <link rel="stylesheet" type="text/css" href="./styles/project_styles/webglGames.css"/>
+
+        <!-- Icon -->
+        <link rel="icon" type="image/png" href="./data/images/icon_trans.png">
+
+        <!-- Scripts -->
+        <script src="scripts/quick_links.js"></script>
+
+        <!-- Add google analytics data -->
+
+    </head>
+
+    <!-- Add a custom container class implementation here.... -->
+    <body id="top">  
+        <div class="container" style="margin-top: 1%" align="center">   
+            <div id="title">Set Thu Han</div>            
+            <img class="landing_logo" src="./data/images/portrait.png" alt="Portrait">
+            <div id="quick_links">
+                <!-- <p id ="tooltip">Quick Links</p> -->
+                <!-- <a href="./Data/cv/ORI_LAZAR_2021.pdf" target="_blank"><i class="fa fa-file-text"></i></a> -->
+                <a href="mailto:setthuhan01@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                <a href="https://github.com/SetThuHan-Dev" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/set-thu-han/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <hr>
+            <div id="about_me">Hi there! My name is Set Thu Han, I'm a passionate Unity game developer who feels enjoyment and fulfillment from the journey of creating games.</div>
+            <hr>
+
+            <section class="buttons">
+                <div class="button_container">
+                    <div id="projects-Button" class="btn btn-5 kd-button" onClick="document.getElementById('project_data_area').style.opacity = 0;">Projects</div> 
+                    <div id="career-Button" class="btn btn-5 kd-button" onClick="document.getElementById('project_data_area').style.opacity = 0;">Career</div> 
+                    <div id="skills-Button" class="btn btn-5 kd-button" onClick="document.getElementById('project_data_area').style.opacity = 0;">Skills</div> 
+                    <div id="research-Button" class="btn btn-5 kd-button" onClick="document.getElementById('project_data_area').style.opacity = 0;">Research</div> 
+                </div>
+            </section>
+        </div>
+
+        <!-- Scripts used in top body -->
+        <script src="scripts/text_animation.js"></script>
+    </body>
+
+    <div id="bottom">
+        <!-- Data_Labels -->
+        <div id="data_selection_area" class="container kd-selection-content" style="opacity: 0;"></div>
+        <div id="project_data_area" class="container kd-selection-content" style="opacity: 0;"></div>
+        <script src="scripts/button_nav_selection.js"></script>
+        <script src="scripts/button_nav_proj.js"></script>
+        <script src="scripts/button_nav_career.js"></script>
+
+    </div>
+</html>
