@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'Ori';
+var txt = 'Set';
 var speed = 50;
 
 window.onload = function() 
