@@ -10,7 +10,17 @@ const ProjectNames =
     "fillOneLine",
     "fillThemAll",
     "woodo",
-    "webglGames"
+
+    "route",
+    "stack",
+    "gasStation",
+    "mofupon",
+    "dragonSmash",
+    "tinyPark",
+
+    "eduGames",
+    "monkeyBubble",
+    "littleChallenger",
 ]
 
 let ProjectText = [];

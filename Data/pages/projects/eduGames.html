@@ -1,0 +1,33 @@
+<link rel="stylesheet" type="text/css" href="./styles/project_styles/woodo.css"/> <!-- Not strictly necessary as imported in parenting index -->
+
+<hr>
+
+<div id="woodo_title">Edu WebGL Games</div>
+
+<div id="woodo_tldr">
+    <!-- <img src="https://img.shields.io/badge/Build%20Date-08.12.19-informational" alt="build_date"/> -->
+    <img src="https://img.shields.io/badge/Category-Puzzle/Casual-FF3078" />
+    <br>
+    <img src="https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=flat&logo=unity" />
+</div>
+<br>
+<div id="woodo_body">
+    <div class="woodo_text">
+        I developed the games in this application <a href= "https://play.google.com/store/apps/details?id=com.dkmads.chitmaymay&hl=en&gl=US" target="_blank" style="color: rgb(183, 0, 249);">ChitMayMay</a> from initial to final state with a graphic designer.
+        These games are embedded in the app which is developed using flutter. Since the flutter provided webview content, it was easy to merge the games built Unity WebGL.
+        <br>
+        That's why, the games and the main app are communicating back and fort in the ways such as calling WebAPI in Unity WebGL and sending data to flutter which will show in-app's points, exiting the game by sending javascript handler from Unity WebGL to the flutter which has receiving handler functions to dispose the flutter webviews and so on.
+        <br>
+        The most challenging parts were to hit optimal performance and frame rate since the games' FPS could not be stable even on android and iOS platforms and the app's users might use low-end devices which can hardly handle app's webview contents.
+        <br>
+        That's why, I had to code the games by not using unnecessary variables, patterns and structures. Since Unity WebGL doesn't support multi-threading officially, I had to run all codes in single-thread.
+        Even though there are webgl multi-threading plugins, the flutter webview's webkits do not support multi-threading.
+        <br>
+        Below is the games which are targeting age around 3~5 based on the contents provided by the company.
+    </div>
+</div>
+<br>
+<div id="woodo_youtube">
+    <iframe width="620" height="415" src="https://www.youtube.com/embed/nYQYJ8g_UAw?autoplay=0"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br>
