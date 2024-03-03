@@ -16,12 +16,16 @@
         I developed the games in this application <a href= "https://play.google.com/store/apps/details?id=com.dkmads.chitmaymay&hl=en&gl=US" target="_blank" style="color: rgb(183, 0, 249);">ChitMayMay</a> from initial to final state with a graphic designer.
         These games are embedded in the app which is developed using flutter. Since the flutter provided webview content, it was easy to merge the games built Unity WebGL.
         <br>
+        <br>
         That's why, the games and the main app are communicating back and fort in the ways such as calling WebAPI in Unity WebGL and sending data to flutter which will show in-app's points, exiting the game by sending javascript handler from Unity WebGL to the flutter which has receiving handler functions to dispose the flutter webviews and so on.
+        <br>
         <br>
         The most challenging parts were to hit optimal performance and frame rate since the games' FPS could not be stable even on android and iOS platforms and the app's users might use low-end devices which can hardly handle app's webview contents.
         <br>
+        <br>
         That's why, I had to code the games by not using unnecessary variables, patterns and structures. Since Unity WebGL doesn't support multi-threading officially, I had to run all codes in single-thread.
         Even though there are webgl multi-threading plugins, the flutter webview's webkits do not support multi-threading.
+        <br>
         <br>
         Below is the games which are targeting age around 3~5 based on the contents provided by the company.
     </div>
