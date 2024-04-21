@@ -31,7 +31,7 @@ let projTextArea = document.getElementById("project_data_area");
 for(let i = 0; i < ProjectNames.length; ++i)
 {
     ProjectText.push("");
-    fetch("./Data/pages/projects/" + ProjectNames[i] + ".html")
+    fetch("./Data/pages/projects/" + ProjectNames[i] + ".html?v=1")
     .then( r => r.text() )
     .then( t => ProjectText[i] = t )
 }
